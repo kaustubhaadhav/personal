@@ -1,0 +1,169 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title> Kaustubh Personal Blogs | MEMCACHED </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Coffee Break Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!--start-smoth-scrolling-->
+</head>
+<body>
+	<!--header-top-starts-->
+	<div class="header-top">
+		<div class="container">
+			<div class="head-main">
+				<a href="index.html"><img src="images/logo.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	<!--header-top-end-->
+	<!--start-header-->
+	<div class="header">
+		<div class="container">
+			<div class="head">
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Me</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<!--<li><a href="typo.html">Typo</a></li>-->
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="https://selfgame.herokuapp.com/">Game</a></li>
+					</ul>
+			</div>
+			<div class="header-right">
+				<div class="search-bar">
+					<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+					<input type="submit" value="">
+				</div>
+				<ul>
+					<li><a href="https://www.facebook.com/kaustubh.adhav.756"><span class="fb"> </span></a></li>
+					<li><a href="#"><span class="twit"> </span></a></li>
+					<li><a href="#"><span class="pin"> </span></a></li>
+					<li><a href="#"><span class="rss"> </span></a></li>
+					<li><a href="#"><span class="drbl"> </span></a></li>
+				</ul>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>	
+	<!-- script-for-menu -->
+	<!-- script-for-menu -->
+		<script>
+			$("span.menu").click(function(){
+				$(" ul.navig").slideToggle("slow" , function(){
+				});
+			});
+		</script>
+	<!-- script-for-menu -->
+	<!--banner-starts-->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-top">
+				<!--<div class="banner-text">
+					<h2>Aliquam erat</h2>
+					<h1>Suspendisse potenti</h1>
+					<div class="banner-btn">
+						<a href="single.html">Read More</a>
+					</div>
+				</div>-->
+			</div>
+		</div>
+	</div>
+	<!--banner-end-->
+	<!--start-single-->
+	<div class="single">
+		<div class="container">
+				<div class="single-top">
+						<a href="#"><img class="img-responsive" src="images/memcached2.png" alt=" "></a>
+						</br>
+						</br>
+						<div class=" single-grid">
+						<h4>IN PROCESS CACHE</h4>				
+							<ul class="blog-ic">
+								<li><a href="#"><span> <i  class="glyphicon glyphicon-user"> </i>Super user</span> </a> </li>
+		  						 <li><span><i class="glyphicon glyphicon-time"> </i>August 28, 2020</span></li>		  						 	
+		  						 <li><span><i class="glyphicon glyphicon-eye-open"> </i>Hits:145</span></li>
+		  					</ul>		  						
+						<p>memcached allows you to take memory from parts of your system where you have more than you need and make it accessible to areas where you have less than you need.
+
+memcached also allows you to make better use of your memory.</p>
+<p>
+1.Each node is completely independent (top).</p>
+<p>2.Each node can make use of memory from other nodes (bottom).
+</p>
+<p>The first scenario illustrates the classic deployment strategy, however you'll find that it's both wasteful in the sense that the total cache size is a fraction of the actual capacity of your web farm, but also in the amount of effort required to keep the cache consistent across all of those nodes.</p>
+
+<p>With memcached, you can see that all of the servers are looking into the same virtual pool of memory. This means that a given item is always stored and always retrieved from the same location in your entire web cluster.</p>
+
+<p>Also, as the demand for your application grows to the point where you need to have more servers, it generally also grows in terms of the data that must be regularly accessed. A deployment strategy where these two aspects of your system scale together just makes sense.</p>
+
+<p>The illustration to the right only shows two web servers for simplicity, but the property remains the same as the number increases. If you had fifty web servers, you'd still have a usable cache size of 64MB in the first example, but in the second, you'd have 3.2GB of usable cache.</p>
+<p>Of course, you aren't required to use your web server's memory for cache. Many memcached users have dedicated machines that are built to only be memcached servers..</p>
+					</div>
+					<!--<div class="comments heading">
+						<h3>Comments</h3>
+						<div class="media">
+					      	<div class="media-body">
+						        <h4 class="media-heading">	Richard Spark</h4>
+						        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs .  </p>
+					      	</div>
+					      <div class="media-right">
+					        <a href="#">
+								<img src="images/si.png" alt=""> </a>
+					      </div>
+					 </div>
+					  <div class="media">
+					      <div class="media-left">
+					        <a href="#">
+					        	<img src="images/si.png" alt="">
+					        </a>
+					      </div>
+					      <div class="media-body">
+					        <h4 class="media-heading">Joseph Goh</h4>
+					        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs .  </p>
+					      </div>
+					    </div>
+					</div>-->
+					</br>
+					</br>
+    				<div class="comment-bottom heading">
+    					<h3>Leave a Comment</h3>
+    					<form>	
+						<input type="text" value="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">
+						<input type="text" value="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
+						<input type="text" value="Subject" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Subject';}">
+						<textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+							<input type="submit" value="Send">
+					</form>
+    				</div>
+				</div>	
+			</div>					
+	</div>
+	<!--end-single-->
+	</body>
+</html>
